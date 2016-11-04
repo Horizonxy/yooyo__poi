@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+    <!--边界内点击水波纹-->
+    <style name="repple_in_backguound">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <!--边界外点击水波纹-->
+    <style name="repple_out_backguound">
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+    </style>
+
+</resources>
