@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <include layout="@layout/view_base_top" />
 
@@ -19,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/normal_size"
-                android:textColor="@color/colorPrimary"
+                android:textColor="?attr/colorPrimary"
                 android:text="用户名：" />
             <EditText
                 android:id="@+id/et_name"
@@ -37,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/normal_size"
-                android:textColor="@color/colorPrimary"
+                android:textColor="?attr/colorPrimary"
                 android:text="密    码：" />
             <EditText
                 android:id="@+id/et_pwd"
@@ -54,6 +55,7 @@
             android:padding="@dimen/normal_margin"
             android:layout_marginTop="@dimen/normal_margin"
             android:textSize="@dimen/large_size"
+            android:textColor="?attr/colorPrimary"
             android:gravity="center"
             android:text="登    录"/>
     </LinearLayout>

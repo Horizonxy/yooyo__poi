@@ -15,14 +15,14 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.horizon.gank.hgank.ui.widget.ColorTextView
+            <com.yooyo.poi.ui.widget.ColorTextView
                 android:id="@+id/ptr_classic_header_rotate_view_header_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/colorPrimary"
                 android:textSize="12sp" />
 
-            <com.horizon.gank.hgank.ui.widget.ColorTextView
+            <com.yooyo.poi.ui.widget.ColorTextView
                 android:id="@+id/ptr_classic_header_rotate_view_header_last_update"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

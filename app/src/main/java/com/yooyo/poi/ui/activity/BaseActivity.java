@@ -20,7 +20,7 @@ public abstract class BaseActivity extends AutoLayoutActivity {
     @BindView(R.id.btn_right1)
     ImageView btnRight1;
     @BindView(R.id.tv_title)
-    TextView tvTitle;
+    public TextView tvTitle;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
