@@ -1,6 +1,7 @@
 package com.yooyo.poi.ui.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import com.jakewharton.rxbinding.view.RxView;
 import com.orhanobut.logger.Logger;
 import com.yooyo.poi.R;
 import com.yooyo.poi.model.bean.RouteVo;
+import com.yooyo.poi.ui.activity.AddRouteActivity;
 import com.zhy.autolayout.utils.AutoUtils;
 
 import java.util.List;
@@ -46,7 +48,8 @@ public class RouteAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         RxView.clicks(holder.tvRoute).throttleFirst(1, TimeUnit.SECONDS).subscribe(new Action1<Void>() {
             @Override
             public void call(Void aVoid) {
-                Logger.i("click route: " + item.getRoute_name());
+                Intent intent = new Intent(mCxt, AddRouteActivity.class);
+                mCxt.startActivity(intent);
             }
         });
     }
