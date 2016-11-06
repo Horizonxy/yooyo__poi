@@ -100,10 +100,10 @@
                 android:id="@+id/lv_detail_desc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/transparent"
+                android:divider="@color/transparent"
                 android:scrollbars="none"
                 android:layout_marginTop="@dimen/normal_margin"
-                android:dividerHeight="@dimen/normal_margin"></ListView>
+                android:dividerHeight="@dimen/normal_margin" />
             <Button
                 android:id="@+id/btn_add_detail_des"
                 android:layout_width="wrap_content"
